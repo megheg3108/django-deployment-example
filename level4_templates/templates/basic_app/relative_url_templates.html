@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Welcome to relative url templates</h1>
+    <a href="{% url 'basic_app:other_page' %}">The other page</a>
+    <!-- Go to admin page using ancher tags -->
+    </br><a href="{% url 'admin:index' %}">admin-index</a>
+    <!-- Go to index page -->
+    <a href="{% url 'index' %}">Link to index</a>
+  </body>
+</html>
